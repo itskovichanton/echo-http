@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"runtime"
 
-	"github.com/labstack/echo/v4"
+	"github.com/itskovichanton/echo-http"
 	"github.com/labstack/gommon/log"
 )
 

@@ -3,7 +3,7 @@
 Не работал на Линуксе - теперь работает.
 
 [![Sourcegraph](https://sourcegraph.com/github.com/labstack/echo/-/badge.svg?style=flat-square)](https://sourcegraph.com/github.com/labstack/echo?badge)
-[![GoDoc](http://img.shields.io/badge/go-documentation-blue.svg?style=flat-square)](https://pkg.go.dev/github.com/labstack/echo/v4)
+[![GoDoc](http://img.shields.io/badge/go-documentation-blue.svg?style=flat-square)](https://pkg.go.dev/github.com/itskovichanton/echo-http)
 [![Go Report Card](https://goreportcard.com/badge/github.com/labstack/echo?style=flat-square)](https://goreportcard.com/report/github.com/labstack/echo)
 [![Build Status](http://img.shields.io/travis/labstack/echo.svg?style=flat-square)](https://travis-ci.org/labstack/echo)
 [![Codecov](https://img.shields.io/codecov/c/github/labstack/echo.svg?style=flat-square)](https://codecov.io/gh/labstack/echo)
@@ -20,7 +20,7 @@ Therefore a Go version capable of understanding /vN suffixed imports is required
 - 1.10.3+
 - 1.14+
 
-Any of these versions will allow you to import Echo as `github.com/labstack/echo/v4` which is the recommended
+Any of these versions will allow you to import Echo as `github.com/itskovichanton/echo-http` which is the recommended
 way of using Echo going forward.
 
 For older versions, please use the latest v3 tag.
@@ -58,7 +58,7 @@ The benchmarks above were run on an Intel(R) Core(TM) i7-6820HQ CPU @ 2.70GHz
 
 ```sh
 // go get github.com/labstack/echo/{version}
-go get github.com/labstack/echo/v4
+go get github.com/itskovichanton/echo-http
 ```
 
 ### Example
@@ -67,8 +67,8 @@ go get github.com/labstack/echo/v4
 package main
 
 import (
-  "github.com/labstack/echo/v4"
-  "github.com/labstack/echo/v4/middleware"
+  "github.com/itskovichanton/echo-http"
+  "github.com/itskovichanton/echo-http/middleware"
   "net/http"
 )
 

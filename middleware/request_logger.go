@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/labstack/echo/v4"
+	"github.com/itskovichanton/echo-http"
 )
 
 // Example for `fmt.Printf`

@@ -2,7 +2,7 @@ package middleware
 
 import (
 	"context"
-	"github.com/labstack/echo/v4"
+	"github.com/itskovichanton/echo-http"
 	"net/http"
 	"sync"
 	"time"

@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/labstack/echo/v4"
+	"github.com/itskovichanton/echo-http"
 )
 
 // RedirectConfig defines the config for Redirect middleware.

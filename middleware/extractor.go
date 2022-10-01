@@ -3,7 +3,7 @@ package middleware
 import (
 	"errors"
 	"fmt"
-	"github.com/labstack/echo/v4"
+	"github.com/itskovichanton/echo-http"
 	"net/textproto"
 	"strings"
 )

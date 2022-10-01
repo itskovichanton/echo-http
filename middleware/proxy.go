@@ -15,7 +15,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/labstack/echo/v4"
+	"github.com/itskovichanton/echo-http"
 )
 
 // TODO: Handle TLS proxy

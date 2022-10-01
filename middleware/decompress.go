@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"sync"
 
-	"github.com/labstack/echo/v4"
+	"github.com/itskovichanton/echo-http"
 )
 
 type (
