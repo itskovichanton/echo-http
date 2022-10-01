@@ -42,7 +42,6 @@ import (
 	"crypto/tls"
 	"errors"
 	"fmt"
-	"github.com/gorilla/mux"
 	"github.com/spf13/cast"
 	"io"
 	stdLog "log"
@@ -76,9 +75,7 @@ type (
 		middleware       []MiddlewareFunc
 		maxParam         *int
 		router           *Router
-		gorillaRouter    *mux.Router
 		routers          map[string]*Router
-		gorillaRouters   map[string]*mux.Router
 		pool             sync.Pool
 		Server           *http.Server
 		TLSServer        *http.Server

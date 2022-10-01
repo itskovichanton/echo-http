@@ -1,10 +1,10 @@
-module github.com/labstack/echo/v4
+module github.com/itskovichanton/echo-http
 
 go 1.17
 
 require (
 	github.com/golang-jwt/jwt v3.2.2+incompatible
-	github.com/gorilla/mux v1.8.0
+	github.com/labstack/echo/v4 v4.9.0
 	github.com/labstack/gommon v0.3.1
 	github.com/spf13/cast v1.5.0
 	github.com/valyala/fasttemplate v1.2.1
